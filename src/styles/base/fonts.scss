@@ -1,0 +1,33 @@
+@font-face {
+	font-family: Inter;
+	src: url('../fonts/InterLight/InterLight.eot');
+	src: local('InterLight'), local('../fonts/InterLight/InterLight'),
+		url('../fonts/InterLight/InterLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/InterLight/InterLight.woff') format('woff'),
+		url('../fonts/InterLight/InterLight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Inter;
+	src: url('../fonts/InterRegular/InterRegular.eot');
+	src: local('InterRegular'), local('../fonts/InterRegular/InterRegular'),
+		url('../fonts/InterRegular/InterRegular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/InterRegular/InterRegular.woff') format('woff'),
+		url('../fonts/InterRegular/InterRegular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Romul;
+	src: url('../fonts/RomulRegular/RomulRegular.eot');
+	src: local('RomulRegular'), local('../fonts/RomulRegular/RomulRegular'),
+		url('../fonts/RomulRegular/RomulRegular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/RomulRegular/RomulRegular.woff') format('woff'),
+		url('../fonts/RomulRegular/RomulRegular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}

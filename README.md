@@ -1,1 +1,1 @@
-# sindrom
+# Sindrom

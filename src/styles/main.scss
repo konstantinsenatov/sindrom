@@ -1,0 +1,29 @@
+/* base */
+@import "base/var";
+@import "base/reset";
+@import "base/fonts";
+
+
+/* mixin */
+@import "base/mixin";
+
+
+/*libs*/
+@import "libs/swiper-bundle.min";
+@import "libs/fancybox.min";
+@import "libs/aos";
+
+
+/* main */
+@import "partials/main";
+
+
+/* components */
+@import "partials/hero";
+@import "partials/content";
+@import "partials/test";
+
+
+
+
+

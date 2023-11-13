@@ -1,0 +1,42 @@
+body {
+	@media (max-width: 768px){
+		&.no-scroll {
+			overflow: hidden;
+		}
+	}
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	.main {
+		flex: 1 1 auto;
+	}
+}
+.container{
+	width: 1920px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.age {
+	position: absolute;
+	z-index: 100;
+	right: 25px;
+	bottom: 25px;
+	width: 66px;
+	height: 66px;
+	background: url('../images/age.png') 0 0 / 100% 100% no-repeat;
+	@media (max-width: 1920px){
+		right: 1.30vw;
+		bottom: 1.30vw;
+		width: 3.44vw;
+		height: 3.44vw;
+	}
+	@media (max-width: 768px){
+		right: 3.86vw;
+		bottom: 3.86vw;
+		width: 7.43vw;
+		height: 7.43vw;
+	}
+}
